@@ -1,0 +1,71 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+TestResults/
+[Aa]rtifacts/
+
+## Roslyn
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.cache
+**/roslyn/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/
+
+## ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Rider
+.idea/
+
+## NuGet
+*.nupkg
+packages/
+.nuget/
+
+## Backup / Cache
+*_i.c
+*_p.c
+*.cache
+*.log
+
+## Publish
+publish/
+App_Data/
+*.Publish.xml
+
+## Auto-generated files
+*.designer.cs
+*.generated.cs
+
+## Azure
+csx/
+*.build.csdef
+
+## IIS / ASP.NET
+App_Data/
+aspnet_client/
+_IISExpress/
+*.config.user
+*.vspscc
+*.vssscc
+
+## Others
+*.dbmdl
+*.bak
+*.tmp
+thumbs.db
+Desktop.ini
