@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using FI.WebAtividadeEntrevista.Attributes;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 
 namespace WebAtividadeEntrevista.Models
 {
@@ -67,5 +64,12 @@ namespace WebAtividadeEntrevista.Models
         /// </summary>
         public string Telefone { get; set; }
 
-    }    
+        /// <summary>
+        /// Cpf
+        /// </summary>
+        [Required]
+        [CPF(ErrorMessage = "CPF inválido")]
+        public string CPF { get; set; }
+
+    }
 }
